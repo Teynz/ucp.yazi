@@ -1,5 +1,10 @@
 # ucp.yazi
 
+> **Personal fork with AI-generated bug fixes.** Not maintained for general use —
+> install the original [simla33/ucp.yazi](https://github.com/simla33/ucp.yazi) instead.
+> Change: the portal copy backend is disabled (`main.lua`), because on Hyprland it
+> never reaches the Wayland clipboard.
+
 Copy files between **Yazi and desktop apps**. Paste files, save clipboard images, or turn text into a new file.
 
 **Yazi 26.8.15+** · [MIT](LICENSE)
