@@ -13,7 +13,7 @@ staging/recovery guarantees, platform requirements, and verification limits.
 local M = {}
 local PackageName = "ucp"
 local windows = ya.target_os() == "windows" and require("ucp.windows") or nil
-local portal = ya.target_os() == "linux" and require("ucp.portal") or nil
+local portal = nil -- personal fix: portal owner never reaches the Wayland clipboard on Hyprland
 
 --==============================================================================
 -- Helpers BEGIN
